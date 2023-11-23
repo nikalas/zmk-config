@@ -27,6 +27,7 @@
         };
 
         // Define caps WORD behaviour
+
         cw: cw {
             compatible = "zmk,behavior-caps-word";
             label = "CW";
@@ -35,6 +36,7 @@
         };
 
         // Caps WORD and sticky shift tap dance
+
         td_cw: td_cw {
             compatible = "zmk,behavior-tap-dance";
             label = "TD_CW";
@@ -53,7 +55,7 @@
          * - cut (ctrl+x)
          * - copy (ctrl+c)
          * - paste (ctrl+v)
-         */  
+         */
 
         mac_undo {
             bindings = <&kp LG(Z)>;
@@ -121,10 +123,10 @@
 
         mac {
             bindings = <
-&lt fkey TAB        &kp Q         &kp W        &kp E       &kp R       &kp T                                                             &kp Y        &kp U       &kp I       &kp O        &kp P            &kp MINUS
-&mt RCMD ESCAPE  &hm LSHIFT A  &hm LCTRL S  &hm LALT D  &hm LGUI F  &kp G                                                             &kp H        &hm RGUI J  &hm RALT K  &hm RCTRL L  &hm RSHIFT SEMI  &kp APOS
-&td_cw           &kp Z         &kp X        &kp C       &kp V       &kp B        &lt nrow RETURN  &kp DELETE  &kp BSLH       &lt nrow END   &kp N        &kp M       &kp COMMA   &kp DOT      &kp FSLH         &kp RCTRL
-                                            &kp LEFT    &kp RIGHT   &lt symb SPACE  &kp BSPC      &kp RETURN  &kp KP_DIVIDE  &kp RETURN  &lt symb SPACE  &kp UP      &kp DOWN
+&lt fkey TAB     &kp Q         &kp W        &kp E       &kp R       &kp T                                                                     &kp Y           &kp U       &kp I       &kp O        &kp P            &kp MINUS
+&mt RCMD ESCAPE  &hm LSHIFT A  &hm LCTRL S  &hm LALT D  &hm LGUI F  &kp G                                                                     &kp H           &hm RGUI J  &hm RALT K  &hm RCTRL L  &hm RSHIFT SEMI  &kp APOS
+&td_cw           &kp Z         &kp X        &kp C       &kp V       &kp B           &lt nrow RETURN  &kp DELETE  &kp BSLH       &lt nrow END  &kp N           &kp M       &kp COMMA   &kp DOT      &kp FSLH         &kp RCTRL
+                                            &kp LEFT    &kp RIGHT   &lt symb SPACE  &kp BSPC         &kp RETURN  &kp KP_DIVIDE  &kp RETURN    &lt symb SPACE  &kp UP      &kp DOWN
             >;
         };
 
@@ -152,10 +154,10 @@
 
         win {
             bindings = <
-&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
-&mt LCTRL ESCAPE  &hm LSHIFT A  &hm LGUI S  &hm LALT D  &hm LCTRL F  &trans                                                            &trans      &hm RCTRL J  &hm RALT K  &hm RGUI L  &hm RSHIFT SEMI  &trans
-&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans            &trans        &trans      &trans      &trans       &trans                                  &trans  &trans       &trans      &trans      &trans           &trans
+&mt LCTRL ESCAPE  &hm LSHIFT A  &hm LGUI S  &hm LALT D  &hm LCTRL F  &trans                                  &trans  &hm RCTRL J  &hm RALT K  &hm RGUI L  &hm RSHIFT SEMI  &trans
+&trans            &trans        &trans      &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans      &trans      &trans           &trans
+                                            &trans      &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
             >;
         };
 
@@ -169,5 +171,6 @@
 
             label = "Num row";
         };
+
     };
 };
