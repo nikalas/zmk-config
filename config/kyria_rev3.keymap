@@ -35,6 +35,70 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        mac_undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <25 26>;
+            layers = <0>;
+        };
+
+        mac_redo {
+            bindings = <&kp LS(LG(Z))>;
+            key-positions = <24 25>;
+            layers = <0>;
+        };
+
+        mac_cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <26 27>;
+            layers = <0>;
+        };
+
+        mac_copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <27 28>;
+            layers = <0>;
+        };
+
+        mac_paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <28 29>;
+            layers = <0>;
+        };
+
+        win_undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <25 26>;
+            layers = <3>;
+        };
+
+        win_redo {
+            bindings = <&kp LS(LC(Z))>;
+            key-positions = <24 25>;
+            layers = <3>;
+        };
+
+        win_cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <26 27>;
+            layers = <0>;
+        };
+
+        win_copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <27 28>;
+            layers = <3>;
+        };
+
+        win_paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <28 29>;
+            layers = <3>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
