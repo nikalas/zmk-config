@@ -8,6 +8,12 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+#define mac 0
+#define symb 1
+#define fkey 2
+#define win 3
+#define nrow 4
+
 / {
     behaviors {
         hm: homerow_mods {
