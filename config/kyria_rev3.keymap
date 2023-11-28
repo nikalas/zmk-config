@@ -143,10 +143,10 @@
 
         fkey {
             bindings = <
-&trans  &kp F12  &kp F7  &kp F8  &kp F9  &bt BT_SEL 0                                            &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &bt BT_CLR
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &bt BT_SEL 1                                            &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &bt BT_SEL 2    &trans          &trans  &trans  &trans  &trans    &trans     &trans     &trans     &trans  &trans
-                         &trans  &trans  &kp LS(LA(N4))  &kp LS(RA(N5))  &trans  &trans  &trans  &trans    &trans     &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &bt BT_SEL 0                                            &kp HOME    &kp PG_DN   &kp PG_UP         &kp END     &trans        &bt BT_CLR
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &bt BT_SEL 1                                            &kp LEFT    &kp DOWN    &kp UP            &kp RIGHT   &trans        &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &bt BT_SEL 2    &trans          &trans  &trans  &trans  &kp C_PREV  &kp C_MUTE  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP
+                         &trans  &trans  &kp LS(LA(N4))  &kp LS(RA(N5))  &trans  &trans  &trans  &trans      &trans      &trans
             >;
 
             label = "F-keys";
@@ -171,6 +171,5 @@
 
             label = "Num row";
         };
-
     };
 };
