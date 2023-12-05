@@ -123,10 +123,10 @@
 
         mac {
             bindings = <
-&lt fkey TAB     &kp Q         &kp W        &kp E       &kp R       &kp T                                                                     &kp Y           &kp U       &kp I       &kp O        &kp P            &kp MINUS
-&mt RCMD ESCAPE  &hm LSHIFT A  &hm LCTRL S  &hm LALT D  &hm LGUI F  &kp G                                                                     &kp H           &hm RGUI J  &hm RALT K  &hm RCTRL L  &hm RSHIFT SEMI  &kp APOS
-&td_cw           &kp Z         &kp X        &kp C       &kp V       &kp B           &lt nrow RETURN  &kp DELETE  &kp BSLH       &lt nrow END  &kp N           &kp M       &kp COMMA   &kp DOT      &kp FSLH         &kp RCTRL
-                                            &kp LEFT    &kp RIGHT   &lt symb SPACE  &kp BSPC         &kp RETURN  &kp KP_DIVIDE  &kp RETURN    &lt symb SPACE  &kp UP      &kp DOWN
+&lt fkey TAB     &kp Q         &kp W        &kp E       &kp R       &kp T                                                             &kp Y        &kp U       &kp I       &kp O        &kp P            &kp MINUS
+&mt RCMD ESCAPE  &hm LSHIFT A  &hm LCTRL S  &hm LALT D  &hm LGUI F  &kp G                                                             &kp H        &hm RGUI J  &hm RALT K  &hm RCTRL L  &hm RSHIFT SEMI  &kp APOS
+&td_cw           &kp Z         &kp X        &kp C       &kp V       &kp B        &lt 1 RETURN  &kp DELETE  &kp BSLH       &lt 1 END   &kp N        &kp M       &kp COMMA   &kp DOT      &kp FSLH         &kp RCTRL
+                                            &kp LEFT    &kp RIGHT   &lt 4 SPACE  &kp BSPC      &kp RETURN  &kp KP_DIVIDE  &kp RETURN  &lt 4 SPACE  &kp UP      &kp DOWN
             >;
         };
 
